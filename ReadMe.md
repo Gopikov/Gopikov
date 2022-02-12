@@ -1,1 +1,5 @@
-I am Gopi, learning Git
+### Powershell
+
+Opertors
+- 
+-
