@@ -58,3 +58,15 @@ if($age=19){
 }else{
 	write-host "a persionis not elgible for vote"
 }
+
+
+write-host "ELSE IF STATEMENTS"
+
+$a=0
+if($a -gt 0){
+	write-host "number is positive"
+}elseif($a -lt 0){
+	write-host "number is negative"
+}else{ 	
+	write-host "number is zero"
+}	
