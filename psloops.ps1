@@ -54,3 +54,17 @@ foreach($item in $fruits){
 	write-host $item
 }
 
+write-host "WHILE LOOP"
+
+while($count -le 5){
+	write-host $count
+	$count +=1
+}
+
+$n=10
+$i=1
+$sum=0
+while($i -le $n){
+	$sum = $sum+$i
+	$i=$i+1
+} write-host $sum
