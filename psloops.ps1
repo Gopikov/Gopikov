@@ -68,3 +68,23 @@ while($i -le $n){
 	$sum = $sum+$i
 	$i=$i+1
 } write-host $sum
+
+
+$fact=5
+$f=1
+while($fact -gt 0){
+	$f=$f*$fact
+	$fact-=1
+}write-host $f
+
+write-host "continous & break statemens"
+
+$a=1
+while($a -le 10){
+	if($a -eq 5){
+		$a += 1
+		continue
+	}write-host $a
+	$a += 1
+	}
+
