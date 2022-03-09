@@ -177,14 +177,8 @@ $table=5
 $i=1
 do{
 	write-host $table*$i=$res
-	$i=$i+1
+	$i= $i +1
 }while($i -le 10)
 
-
-
-
-
-
-
-
-
+$s1="windows powershell"
+$s1.substring(3,7)
